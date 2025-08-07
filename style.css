@@ -224,9 +224,9 @@ h1 span {
 /* -----------------------------------------  */
 
 @media (max-width: 1024px) {
-    body{
-        width: 100%;
-    }
+  html, body {
+  overflow-x: hidden;
+}
     header{
         position: relative;
     }
@@ -320,3 +320,4 @@ h1 span {
 }
 
 }
+
